@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #1d5888;
-  --secondary-color: #ff993b;
+  --primary-color: #649cac;
+  --secondary-color: #cda863;
   --dark-color: #292929;
   --white-color: #dff3e4;
 }
@@ -11,12 +11,12 @@ body {
 }
 
 nav {
-  background-color: var(--dark-color);
+  background-color: var(--primary-color);
   font-family: 'Open Sans', sans-serif;
 }
 
 footer {
-  background-color: var(--dark-color);
+  background-color: var(--primary-color);
   font-family: 'Open Sans', sans-serif;
   padding-right: 1rem;
 }
@@ -48,18 +48,18 @@ footer .social > a:hover {
 }
 
 .tryButton:hover {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+  color: white);
+  background-color: #aacad4;
   border-color: var(--primary-color);
 }
 
 .altBtn {
-  color: var(--primary-color);
+  color: white;
   background-color: var(--secondary-color);
 }
 
 .altBtn:hover {
-  color: var(--white-color);
+  color: white;
   background-color: var(--primary-color);
 }
 
@@ -87,6 +87,20 @@ footer .social > a:hover {
 
 .checklist > li i {
   color: var(--secondary-color);
+}
+
+.totalCost {
+  font-weight: 700;
+}
+
+.payments {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.tHeader {
+  background-color: var(--primary-color);
+  color: white;
 }
 
 code[class*='language-'],
